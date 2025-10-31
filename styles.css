@@ -114,23 +114,16 @@ body {
 }
 
 .btn-secondary {
-    background: var(--ey-yellow);
-    color: var(--ey-yellow-light-35);
+    background: transparent;
+    color: var(--ey-dark-blue);
+    border: 2px solid var(--ey-dark-blue);
     padding: 14px 28px;
     border-radius: 6px;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    width: 80px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
+    width: 100%;
     transition: all 0.3s ease;
-    align-items: center;
-}
-
-.logout-section {
-    align-items: center;
 }
 
 .btn-secondary:hover {
@@ -240,11 +233,11 @@ body {
     .main-content {
         grid-template-columns: 1fr;
     }
-
+    
     .welcome-card {
         padding: 30px 20px;
     }
-
+    
     .modal-content {
         padding: 30px 20px;
     }
