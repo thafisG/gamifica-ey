@@ -1,13 +1,10 @@
 {
   "name": "ey-knowledge-champions",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Sistema de gamificação para compartilhamento de conhecimento na EY",
+  "main": "script.js",
   "scripts": {
-    "build-ts": "tsc",
-    "build": "npm run build-ts",
-    "watch-ts": "tsc --watch",
-    "dev": "npm run build && npm run watch-ts",
-    "start": "node server.js",
-    "serve": "npm run build && node server.js"
+    "build": "echo 'No build step required'",
+    "dev": "echo 'No build step required'"
   }
 }
