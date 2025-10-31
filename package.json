@@ -1,0 +1,13 @@
+{
+  "name": "ey-knowledge-champions",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build-ts": "tsc",
+    "build": "npm run build-ts",
+    "watch-ts": "tsc --watch",
+    "dev": "npm run build && npm run watch-ts",
+    "start": "node server.js",
+    "serve": "npm run build && node server.js"
+  }
+}
